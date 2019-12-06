@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# Forecasting Strategies
 
-You can use the [editor on GitHub](https://github.com/euler777/ForecastingStrategies.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Businesses rely on forecasts of sales to plan production, justify marketing decisions and guide research. There are 3 general strategies to forecast. The first one is to find good predictors X that lead to the values of response Y . The closer the relationship and the longer the lead time, the better this strategy becomes. This strategy is often related to regressions. In many applications, we cannot rely on finding a suitable set of predictors and have to try other methods. A second approach, common in marketing, is to use information about the sales of similar products in the past. The influential Bass diffusion model is based on this principle. A third strategy is to make extrapolations based on present trends continuing and to implement adaptive estimates of these trends.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Main goal: To model count data by using generalized linear regressions; to estimate the total sales items using Bass model; to estimate non-seasonal time series using the exponential smoothing estimation method.
 
-### Markdown
+# Getting Started
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/euler777/ForecastingStrategies.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
